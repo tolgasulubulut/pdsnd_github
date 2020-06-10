@@ -1,3 +1,5 @@
+# Developed by Tolga Sulubulut
+# Development date : 19.05.2020
 import time
 import pandas as pd
 import numpy as np
@@ -215,7 +217,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df,city)
         display_data(df,city)
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input('\nWould you like to restart? Enter Yes or No.\n')
         if restart.lower() != 'yes':
             break
 
